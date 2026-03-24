@@ -80,7 +80,23 @@ export const weeks = [
       { "ko": "여행하고 싶다", "es": "Querer viajar" },
       { "ko": "같이 가요", "es": "Vamos juntos" }
     ]
-  }  
+  },
+  {
+    week: 6,
+    topic_es: "Emociones y estados de ánimo",
+    topic_ko: "감정과 기분",
+    intro: "¿Cómo te sientes hoy? 오늘 기분이 어때요?",
+    vocabulary: [
+      { "ko": "기쁘다", "es": "Estar alegre / feliz" },
+      { "ko": "슬프다", "es": "Estar triste" },
+      { "ko": "외롭다", "es": "Estar solo/a, sentirse solo/a" },
+      { "ko": "설레다", "es": "Estar emocionado/a (con ilusión)" },
+      { "ko": "그립다", "es": "Echar de menos" },
+      { "ko": "부럽다", "es": "Tener envidia, envidiar" },
+      { "ko": "답답하다", "es": "Sentirse agobiado/a, frustrado/a" },
+      { "ko": "뿌듯하다", "es": "Sentirse orgulloso/a de uno mismo" }
+    ]
+  }
 ]
 
 function parseStartDate() {
